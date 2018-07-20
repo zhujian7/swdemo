@@ -3,3 +3,5 @@ spring:
     name: demo1
 server:
   port: 7000
+test:
+  url: ${URL:abc}
