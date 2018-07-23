@@ -5,3 +5,9 @@ server:
   port: 7000
 test:
   url: ${URL:abc}
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eurekaserver:81/eureka/
